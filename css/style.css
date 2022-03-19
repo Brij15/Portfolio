@@ -1,0 +1,38 @@
+/* Site banner Style */
+
+.site-banner .site-title {
+    padding-top: 15%;
+    font-weight: 400;
+}
+
+.site-banner .site-title h1{
+    font-size: 4.5rem;
+}
+
+.site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-banner .banner-image > img{
+    padding: 6rem 0;
+    width: 90rem;
+}
+
+.site-banner .social-icons a{
+    color: black;
+    font-size: x-large;
+    padding: 1rem;
+}
+
+.site-banner .social-icons a:hover{
+    color: #1e81b0;
+}
+
+.contact-info {
+    font: 400;
+    font-size: large;
+}
+
+.portfolio-area .card-img-top {
+    height: 250px !important;
+}
