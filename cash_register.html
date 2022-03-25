@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstarp-->      
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./images/siteLogo.png" width="50" height="30" alt="Site Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">            
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#document"> Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#screen"> Screen</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Banner Section -->
+    <section class="site-banner" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 site-title">
+          <h3 class="title-text text-uppercase">Cash Register</h3>
+          <p>It is Cash Register Application. It is used for Grocery stores and malls. User can select product from the list and 
+            select product quantity and then but it. Cashier can see history of the all transactions and restock the products from 
+            the product list. Cashier can add and manage new product into the product list.
+          </p>
+          <h5 class="text-uppercase">Roles</h5>
+          <ul>
+            <li>Project Manager (Group Project in Postgraduate certificate course)</li>
+            <li>Developer</li>
+            <li>Designer</li>
+          </ul>
+          <h5 class="text-uppercase">Application Information</h5>
+          <ul>
+            <li>Android Application (Kotlin)</li>
+            <li>IOS Application (Swift)</li>
+          </ul>
+        </div>
+        <div class="col-lg-6 col-md-12 banner-image">
+          <img src="./images/Cash_Register_Logo.jpg" alt="Cash Register Image" class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="document">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center text-uppercase section-header">Documentation</h3>
+          <h5>App Functionality</h5>
+          <ul>
+            <li>Cashier can buy product from the system.</li>
+            <li>Cashier can restock the product from the product list.</li>
+            <li>Cashier can see transaction of products as History</li>
+            <li>Cashier can add product into list.</li>
+          </ul>
+          <div class="row">
+            <h5 class="text-center text-uppercase">Interaction Design</h5>
+            <div class="col-md-6">
+              <img src="./images/cash/Cash_Register_Interaction_Diagram.png" class="img-responsive img-fluid" alt="Interaction Design">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center text-uppercase section-header">Screen</h3>
+          <h5 class="text-center text-uppercase">UX Screen</h5>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Main Screen</h6>
+            <img src="./images/cash/Main Screen UI.png" class="img-responsive img-fluid" alt="UX Main Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">History Screen</h6>
+            <img src="./images/cash/History Screen UI.png" class="img-responsive img-fluid" alt="UX History Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Product Screen</h6>
+            <img src="./images/cash/Add Product UI.png" class="img-responsive img-fluid" alt="UX Product Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Restock Screen</h6>
+            <img src="./images/cash/Restock Screen UI.png" class="img-responsive img-fluid" alt="UX Restock Screen">
+          </div>
+        </div>
+
+        <div class="row">
+          <h5 class="text-center text-uppercase" style="margin-top: 1.5rem;">UI Screen</h5>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Main Screen</h6>
+            <img src="./images/cash/Main Screen UX.png" class="img-fluid diagram-height" alt="UI Main Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">History Screen</h6>
+            <img src="./images/cash/History Screen UX.png" class="img-fluid diagram-height" alt="UI History Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Product Screen</h6>
+            <img src="./images/cash/Add Product UX.png" class="img-fluid diagram-height" alt="UI Product Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Restock Screen</h6>
+            <img src="./images/cash/Restock Screen UX.png" class="img-fluid diagram-height" alt="UI Restock Screen">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="page-footer font-small" style="background-color: #f8f9fa !important;">
+      <div class="footer-copyright text-center py-3">© <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+     Copyright:
+        <a href=""> brijdev.com</a>
+      </div>
+    
+    </footer>
+    </body>
+    </html>

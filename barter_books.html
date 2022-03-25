@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstarp-->      
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./images/siteLogo.png" width="50" height="30" alt="Site Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">            
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#document"> Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#screen"> Screen</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Banner Section -->
+    <section class="site-banner" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 site-title">
+          <h3 class="title-text text-uppercase">Barter Books</h3>
+          <p>This is app that allows to user to post ads on their books and view ads accordingly to thier location (Barrie). Users 
+            can post books for barter with someone else or sell it with discount price. This will allow students to find textbooks, 
+            referencebooks. 
+          </p>
+          <h5 class="text-uppercase">Roles</h5>
+          <p>Developer, Designer (Group Project in Postgraduate certificate course)</p>
+          <h5 class="text-uppercase">Application Information</h5>
+          <p>Android Application with firebase database integration</p>
+        </div>
+        <div class="col-lg-6 col-md-12 banner-image">
+          <img src="./images/BarterBooks Logo.png" alt="Barter Books Image" class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="document">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center text-uppercase section-header">Documentation</h3>
+          <h5>App Functionality</h5>
+          <ul>
+            <li>Splash screen with animation that automatically redirect to Login screen</li>
+            <li>User can login with username and password or Social media, User can register</li>
+            <li>Show all newest ads with filters (Category and Location) to search posts</li>
+            <li>View details about the ads(Images, Price, Seller details and Description)</li>
+            <li>User can add, edit and delete ads</li>
+            <li>User can view all posted posts.</li>
+          </ul>
+          <div class="row">
+            <h5 class="text-center text-uppercase">UML Diagrams</h5>
+            <div class="col-md-6">
+              <h6 class="text-center">Activity Diagram</h6>
+              <img src="./images/barter/barter_activity_diagram.jpeg" class="img-responsive img-fluid" alt="Activity Diagram">
+            </div>
+            <div class="col-md-6">
+              <h6 class="text-center">Class Diagram</h6>
+              <img src="./images/barter/barter_class_diagram.jpeg" class="img-responsive img-fluid" alt="Class Diagram">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen">
+      <div class="container">
+        <div class="row">
+          <h3 class="text-center text-uppercase section-header">Screen</h3>
+          <h5 class="text-center text-uppercase">UX Screen</h5>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Splash Screen</h6>
+            <img src="./images/barter/barter_wireframe_splash.png" class="img-responsive img-fluid" alt="UX Splash Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Login Screen</h6>
+            <img src="./images/barter/barter_wireframe_login.png" class="img-responsive img-fluid" alt="UX Login Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Home Screen</h6>
+            <img src="./images/barter/barter_wireframe_home.png" class="img-responsive img-fluid" alt="UX Home Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Detail Screen</h6>
+            <img src="./images/barter/barter_wireframe_detail.png" class="img-responsive img-fluid" alt="UX Detail Screen">
+          </div>
+        </div>
+
+        <div class="row">
+          <h5 class="text-center text-uppercase" style="margin-top: 1.5rem;">UI Screen</h5>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Splash Screen</h6>
+            <img src="./images/barter/barter_UI_splash.png" class="img-fluid diagram-height" alt="UI Splash Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Login Screen</h6>
+            <img src="./images/barter/barter_UI_login.png" class="img-fluid diagram-height" alt="UI Login Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Home Screen</h6>
+            <img src="./images/barter/barter_UI_home.png" class="img-fluid diagram-height" alt="UI Home Screen">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h6 class="text-center">Detail Screen</h6>
+            <img src="./images/barter/barter_UI_detail.png" class="img-fluid diagram-height" alt="UI Detail Screen">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="page-footer font-small" style="background-color: #f8f9fa !important;">
+      <div class="footer-copyright text-center py-3">© <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+     Copyright:
+        <a href=""> brijdev.com</a>
+      </div>
+    
+    </footer>
+
+
+    </body>
+    </html>
